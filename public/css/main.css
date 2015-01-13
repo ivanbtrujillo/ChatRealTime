@@ -1,0 +1,57 @@
+#chat{
+	height: 500px;
+	width:540px;
+	border: 2px solid #008CBA;
+	padding:2px;
+	color: orange;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+#contentWrap {
+	display: none;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+#nickWrap{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+#chatWrap{
+	float: left;
+	
+}
+#send-message{
+    margin-top: 1px; 
+}
+.mymessage{
+	text-align: right;
+	color: #008CBA;
+}
+.errormessage{
+    text-align: right;
+    color: red;
+}
+.whisper{
+    text-align: left;
+    color: purple;
+}
+.usermessage{
+	text-align: left;
+	color: #006687;
+}
+hr{
+    color:#006687;
+}
+#users{
+	float: left;
+	padding-left: 1em;
+    padding-right: 1em;
+    min-width: 200px;
+    background-color: #008CBA;
+    color:white;
+    text-align: center;
+
+}
