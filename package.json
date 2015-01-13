@@ -1,7 +1,13 @@
 {
 	"name":"chat",
 	"version": "0.0.1",
-	"private":"true",
+	"description": "Chat en tiempo real con Socket.io y Node.js",
+	"main": "app.js",
+	"scripts": {
+	    "start": "node app.js",
+	},
+	"author": "Ivan Bacallado Trujillo",
+	"license": "MIT",
 	"dependencies": {
 		"socket.io":"1.2.1",
 		"express": "4.10.7"
